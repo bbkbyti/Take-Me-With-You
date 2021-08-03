@@ -1,5 +1,5 @@
 import db from '../db/connection.js';
-import Trip from '../models/trips.js';
+import Trip from '../models/trip.js';
 import User from '../models/user.js';
 import bcrypt from 'bcrypt';
 
