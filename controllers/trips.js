@@ -1,3 +1,4 @@
+import Trip from '../models/trip.js';
 export const getTrip = async (req, res) => {
   try {
     const trips = await Trip.find();
