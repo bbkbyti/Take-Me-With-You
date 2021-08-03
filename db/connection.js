@@ -22,7 +22,7 @@ mongoose
   })
   .catch(error => console.error('Error connecting to MongoDB: ', error.message));
 
-// Listen to MongoDB events
+// Listen to MongoDB =
 // Learn more: https://mongoosejs.com/docs/connections.html#connection-events
 mongoose.connection.on('disconnected', () => console.log(`Disconnected from MongoDB!`));
 
